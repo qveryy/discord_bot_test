@@ -29,5 +29,5 @@ async def hello(ctx):
     await ctx.send("hello")
 
 
-#client.run("MTAzMjcwMTYxMDY0MTYwODc1Nw.GjX6qP.IuWX--Hk1NYRJXOTfLv7jpDkiBPRkRlSlMC_JU")
+#client.run("")
 client.run(os.getenv("TOKEN"))
